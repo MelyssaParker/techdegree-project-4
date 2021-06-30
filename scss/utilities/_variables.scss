@@ -6,12 +6,34 @@ $color-primary: #58e1c1;
 $color-secondary: #51ddfc;
 
 $color-text: #777;
-$color-white: #fff;
+$white: #fff;
 
+$color-image-border: #ccc;
 
+$btn-color-error: #e4757a;
+$btn-color-info:  #927bc1;
+$btn-color-success: #63cc82;
+$btn-color-warning: #fd7856;
 
 
 $font-stack-primary: 'Lato', sans-serif;
 
 
-$max-width: 1000px;
+$max-width: 1400px;
+
+$breakpoint: 768px;
+
+$themes: (
+    'col-1': $btn-color-info,
+    'col-2': $btn-color-warning,
+    'col-3': #deb2ee,
+    'col-4': #7ee6fd,
+    'col-5': #88d9a0,
+    'col-6': #4da2bb,
+    'col-7': #ec9fa3,
+    'col-8': #fd9f85,
+    'col-9': $btn-color-error,
+    'col-10': $btn-color-success,
+    'col-11': $color-secondary,
+    'col-12': #80e8d1,
+)
